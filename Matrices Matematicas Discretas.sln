@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrices Matematicas Discretas", "Matrices Matematicas Discretas.csproj", "{5936E5DE-2D8B-4C33-B729-D21E9B45AE19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5936E5DE-2D8B-4C33-B729-D21E9B45AE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5936E5DE-2D8B-4C33-B729-D21E9B45AE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5936E5DE-2D8B-4C33-B729-D21E9B45AE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5936E5DE-2D8B-4C33-B729-D21E9B45AE19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770DBE4F-9C75-4F2E-B929-1A9D9F08892D}
+	EndGlobalSection
+EndGlobal

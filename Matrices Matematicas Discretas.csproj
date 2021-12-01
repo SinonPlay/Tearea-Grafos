@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5936E5DE-2D8B-4C33-B729-D21E9B45AE19}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Matrices_Matematicas_Discretas</RootNamespace>
+    <AssemblyName>Matrices Matematicas Discretas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatrizDe1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatrizDe1.Designer.cs">
+      <DependentUpon>MatrizDe1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatrizDe2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatrizDe2.Designer.cs">
+      <DependentUpon>MatrizDe2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatrizDe3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatrizDe3.Designer.cs">
+      <DependentUpon>MatrizDe3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatrizDe4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatrizDe4.Designer.cs">
+      <DependentUpon>MatrizDe4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatrizDe5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatrizDe5.Designer.cs">
+      <DependentUpon>MatrizDe5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrizDe1.resx">
+      <DependentUpon>MatrizDe1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrizDe2.resx">
+      <DependentUpon>MatrizDe2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrizDe3.resx">
+      <DependentUpon>MatrizDe3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrizDe4.resx">
+      <DependentUpon>MatrizDe4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrizDe5.resx">
+      <DependentUpon>MatrizDe5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dsadadad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-ball-1508342054M7R.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-ball-1508342054M7R1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-ball-1508342054M7R %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\262062039_486860515954568_2284077231642270485_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\262514522_213279047618079_2788697634182655689_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\262329346_479342513547382_4584251084608133640_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\262819788_947792352803431_1358791677250044470_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\262819728_485099386166511_6275145050619676490_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\262700564_3020499034828876_8900091536676477033_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\262625746_636600104035662_6304197294265804724_n.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
